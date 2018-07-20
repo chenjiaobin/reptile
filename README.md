@@ -14,3 +14,7 @@ node实现爬虫的简单案例
  |limie|number|              一次异步操作的最大数量,也就是并发的数量设置
  |iteratee|AsyncFunction|               对于 coll 中的每一个item，迭代执行该异步函数。用(item, callback)调用，callback可选
  |callback|[ function ]|        所有 iteratee函数完成后或发生错误时触发的回调函数。用(err, results)调用。results可以是iteratee 函数完成后触发callback时传递的项
+ 
+ ### 使用
+ - 安装月依赖`npm install`
+ - 执行命令 node xx.js
